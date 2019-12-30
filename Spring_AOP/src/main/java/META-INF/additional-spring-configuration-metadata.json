@@ -1,0 +1,107 @@
+{"properties": [
+  {
+    "name": "spring.second-datasourcee.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.second-datasourcee.url'"
+  },
+  {
+    "name": "spring.second-datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.second-datasource.username'"
+  },
+  {
+    "name": "spring.second-datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.second-datasource.password'"
+  },
+  {
+    "name": "spring.second-datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.second-datasource.driver-class-name'"
+  },
+  {
+    "name": "spring.jpa.hibernate-2.ddl-auto",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.hibernate-2.ddl-auto'"
+  },
+  {
+    "name": "first.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'first.datasource.driver-class-name'"
+  },
+  {
+    "name": "first.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'first.datasource.url'"
+  },
+  {
+    "name": "first.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'first.datasource.username'"
+  },
+  {
+    "name": "first.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'first.datasource.password'"
+  },
+  {
+    "name": "first.datasource.validation-query",
+    "type": "java.lang.String",
+    "description": "A description for 'first.datasource.validation-query'"
+  },
+  {
+    "name": "second.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'second.datasource.driver-class-name'"
+  },
+  {
+    "name": "second.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'second.datasource.url'"
+  },
+  {
+    "name": "second.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'second.datasource.username'"
+  },
+  {
+    "name": "second.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'second.datasource.password'"
+  },
+  {
+    "name": "second.datasource.validation-query",
+    "type": "java.lang.String",
+    "description": "A description for 'second.datasource.validation-query'"
+  },
+  {
+    "name": "second.datasource.jdbc-url",
+    "type": "java.lang.String",
+    "description": "A description for 'second.datasource.jdbc-url'"
+  },
+  {
+    "name": "first.datasource.jdbc-url",
+    "type": "java.lang.String",
+    "description": "A description for 'first.datasource.jdbc-url'"
+  },
+  {
+    "name": "second.jpa.hibernate.ddl-auto",
+    "type": "java.lang.String",
+    "description": "A description for 'second.jpa.hibernate.ddl-auto'"
+  },
+  {
+    "name": "second.jpa.show-sql",
+    "type": "java.lang.String",
+    "description": "A description for 'second.jpa.show-sql'"
+  },
+  {
+    "name": "first.jpa.hibernate.ddl-auto",
+    "type": "java.lang.String",
+    "description": "A description for 'first.jpa.hibernate.ddl-auto'"
+  },
+  {
+    "name": "first.jpa.show-sql",
+    "type": "java.lang.String",
+    "description": "A description for 'first.jpa.show-sql'"
+  }
+]}

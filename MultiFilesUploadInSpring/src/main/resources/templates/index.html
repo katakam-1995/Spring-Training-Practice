@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>OTSI Employees Details</title>
+</head>
+<body>
+<div th:switch="${employees}">
+    <h2 th:case="null">No employees yet!</h2>
+        <div th:case="*">
+            <h2>Employee Details</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>firstName</th>
+                        <th>lastName</th>
+                        <th>email</th>
+                        <th>password</th>
+                        <th>action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr th:each="employee : ${employees}">
+                    <td th:text="${employee.id}"></td>
+                    <td th:text="${employee.firstName}"></td>
+                    <td th:text="${employee.lastName}"></td>
+                    <td th:text="${employee.email}"></td>
+                    <td th:text="${employee.password}"></td>  
+                    <td align='center'><form action="/getListOfFiles"><input type="hidden" th:value="${employee.id}" name="id"><input type="submit" value="upload"></form></td>   
+                </tr>
+            </tbody>
+        </table>
+    </div>      
+</div>
+</body>
+</html>
